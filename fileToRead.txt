@@ -1,0 +1,6 @@
+ship.gif http://www.warnerbros.com/archive/spacejam/movie/img/p-pressbox.gif
+ben.html http://cs.coloradocollege.edu/~bylvisaker/short_bio.html
+csserver.html http://cs.coloradocollege.edu/
+please.txt http://not.going.to.work.edu/wrong
+really? not://even@a$real)URL
+/root/cc.html http://www.coloradocollege.edu/
