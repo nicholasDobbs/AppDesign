@@ -1,0 +1,44 @@
+Database:
+Name = eCommerce.sqlite
+
+(1) StoreInventory
+  - Primary Key -- ItemID
+  - Product Name
+  - Category
+  - Price
+  - PictureOfItem
+
+(2) CustomerInformation
+  - Primary Key -- CustID
+  - Customer Name
+  - Credit Card Number
+
+(3) Cart
+  - Primary Key -- CartID
+  - ItemID
+  - Item quantity
+
+HTML:
+
+(1) Welcome.html
+  - inputs -- category pages
+  - inputs -- view cart (go to checkout)
+
+(2) category_i.html
+  - inputs -- item_j + # ordered
+  - inputs -- view cart (go to checkout)
+
+(3) checkout.html
+  - display -- cart array contents + price
+  - inputs -- confirm checkout
+
+(4) confirmOrder.html
+  - inputs -- userName
+  - inputs -- Credit Card #
+  - inputs -- address
+  - inputs -- commit order
+
+(5) orderConfirmed
+  - display -- order being processed, thanks for shopping
+  - input -- return to welcome
+  - script -- clear cart onload
